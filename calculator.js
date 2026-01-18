@@ -26,6 +26,7 @@ class Calculator {
     return this;
   }
 
+  // Power method
   power(exponent) {
     this.result = Math.pow(this.result, exponent);
     return this;
