@@ -26,6 +26,11 @@ class Calculator {
     return this;
   }
 
+  power(exponent) {
+    this.result = Math.pow(this.result, exponent);
+    return this;
+  }
+
   clear() {
     this.result = 0;
     return this;
