@@ -1,3 +1,4 @@
+// This is a base javascript Calculator class
 class Calculator {
   constructor() {
     this.result = 0;
